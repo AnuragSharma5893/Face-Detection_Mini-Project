@@ -1,3 +1,4 @@
+//..This is the Main JavaScript file where we add the all models 
 const video = document.getElementById('video')
 
 Promise.all([
@@ -29,3 +30,4 @@ video.addEventListener('play', () => {
     faceapi.draw.drawFaceExpressions(canvas, resizedDetections)
   }, 100)
 })
+
